@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python & Virtual Environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ChromaDB & Local Vector Data
+chroma_data/
+*/chroma_data/
+*.sqlite3
+*.sqlite
+*.db
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+*/dist/
+build/
+*/build/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
